@@ -1,11 +1,9 @@
 image:
   file: Dockerfile
 ports:
-  - port: 8080
+  - port: 8001
   - port: 3306
     onOpen: ignore
-checkoutLocation: "lamp-example"
-workspaceLocation: "."
 tasks:
   - name: MySQL
     command: >
